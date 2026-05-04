@@ -13,7 +13,7 @@ This repository contains the firmware code for a simple Blinky application desig
 ---
 
 ## Video Demonstration
-**▶️ [Blinking LED Video](https://youtu.be/ZJs8bZtT7O0)**
+**▶️ [Blinking LED Video](https://youtu.be/BsNOkTZtogA)**
 
 ---
 
