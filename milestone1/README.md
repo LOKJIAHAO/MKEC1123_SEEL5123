@@ -32,7 +32,7 @@ This repository contains the firmware code for a simple Blinky application desig
 6. Generate the project code and open it in STM32CubeIDE.
 
 ### Step 3: Programming the Logic
-1. Open the [`main.c`](milestone1/Blink_LED/Core/Src/main.c) file located in the generated `Src` folder.
+1. Open the [`main.c`](/milestone1/Blink_LED/Core/Src/main.c) file located in the generated `Src` folder.
 2. Locate the infinite `while (1)` loop inside the main function.
 3. Add the Hardware Abstraction Layer (HAL) functions to toggle the LED and create a delay:
    
