@@ -34,13 +34,13 @@ This repository contains the firmware code for a simple Blinky application desig
 2. Note the inclusion of the `main.h` header file. STM32CubeIDE automatically generates this file in the `Core/Inc` folder to define hardware labels for easier reading. For example, the onboard LED is mapped so that `LD2_GPIO_Port` equals `GPIOA` and `LD2_Pin` equals `GPIO_PIN_5`.
 3. Locate the infinite `while (1)` loop inside the main function.
 4. Add the Hardware Abstraction Layer (HAL) functions to toggle the LED and create a delay. We will use the auto-generated labels from `main.h` for best coding practices:
-   ```c
-   // Toggle the onboard LED state using labels defined in main.h
-   HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin); 
-   
-   // Create a 500ms delay
-   HAL_Delay(500);
-   ```
+
+   ```c
+   // Toggle the onboard LED state using labels defined in main.h
+   HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin); 
+   
+   // Create a 500ms delay
+   HAL_Delay(500);
 
 ### Step 4: Build and Flash
 1. Click the Build button (hammer icon) to compile the project and check for any syntax errors.
