@@ -24,10 +24,12 @@ This repository contains the firmware code for a simple Blinky application desig
 2. Verify that the power indicator LED on the board turns on.
 
 ### Step 2: Project Configuration
-1. Launch STM32CubeIDE and create a new STM32 project.
-2. Select the NUCLEO-F446RE board from the target selector.
-3. In the Device Configuration Tool, locate the pin connected to the onboard LED (PA5) and configure it as `GPIO_Output`.
-4. Generate the initialization code.
+1. Launch STM32CubeMX and create a new project.
+2. Select the NUCLEO-F446RE board from the board selector.
+3. In the Pinout & Configuration view, locate the onboard LED pin: PA5
+4. Configure the pin as: GPIO_Output
+5. Proceed to Project Manager, set the toolchain to: STM32CubeIDE
+6. Generate the project code and open it in STM32CubeIDE.
 
 ### Step 3: Programming the Logic
 1. Open the `main.c` file located in the generated `Core/Src` folder.
