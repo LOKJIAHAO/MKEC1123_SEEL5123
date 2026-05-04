@@ -8,7 +8,7 @@ This repository contains the firmware code for a simple Blinky application desig
 ## Hardware and Software Used
 * **Microcontroller Board:** STM NUCLEO-F446RE
 * **Connection:** Mini-USB cable
-* **IDE/Toolchain:** STM32CubeIDE
+* **IDE/Toolchain:** STM32CubeIDE and STM32CubeMX
 
 ---
 
@@ -32,11 +32,10 @@ This repository contains the firmware code for a simple Blinky application desig
 6. Generate the project code and open it in STM32CubeIDE.
 
 ### Step 3: Programming the Logic
-1. Open the `main.c` file located in the generated `Core/Src` folder.
-2. Note the inclusion of the `main.h` header file. STM32CubeIDE automatically generates this file in the `Core/Inc` folder to define hardware labels for easier reading. For example, the onboard LED is mapped so that `LD2_GPIO_Port` equals `GPIOA` and `LD2_Pin` equals `GPIO_PIN_5`.
-3. Locate the infinite `while (1)` loop inside the main function.
-4. Add the Hardware Abstraction Layer (HAL) functions to toggle the LED and create a delay. We will use the auto-generated labels from `main.h` for best coding practices:
-
+1. Open the `main.c` file located in the generated `Src` folder.
+2. Locate the infinite `while (1)` loop inside the main function.
+3. Add the Hardware Abstraction Layer (HAL) functions to toggle the LED and create a delay:
+   
    ```c
    // Toggle the onboard LED state using labels defined in main.h
    HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin); 
