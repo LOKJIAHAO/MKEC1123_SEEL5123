@@ -9,3 +9,4 @@
 
 ## Link
 [Milestone1](https://github.com/LOKJIAHAO/MKEC1123_SEEL5123/tree/main/milestone1)
+[Milestone3](https://youtu.be/XwWDksAelKQ)
