@@ -88,4 +88,4 @@ IR sensors require 5V or 3.3V power (depending on module specs) and a connection
 ---
 
 ## Demonstration Video
-[Milestone6](https://youtu.be/XwWDksAelKQ)
+[Milestone6](https://youtu.be/2lLpY2LJ-l0)
