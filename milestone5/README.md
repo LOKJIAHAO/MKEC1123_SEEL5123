@@ -48,6 +48,7 @@ Once you have downloaded or cloned the repository files, follow these steps to o
 3. STM32CubeIDE will launch automatically.
 4. Choose your workspace.
 5. The project will be imported to your workspace.
+6. The [`main.c`](/milestone5/AdaptiveTrafficLight/Core/Src/main.c) file is located in the generated `Src` folder.
 
 ### Step 3: Build and Flash
 
