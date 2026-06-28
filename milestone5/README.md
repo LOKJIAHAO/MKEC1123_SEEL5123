@@ -43,7 +43,7 @@ git clone https://github.com/LOKJIAHAO/MKEC1123_SEEL5123.git
 Once you have downloaded or cloned the repository files, follow these steps to open the project:
 
 1. Open your file manager and navigate to the project folder:
-   `MKEC1123_SEEL5123-main/milestone5/AdaptiveTrafficLight/`
+   **`MKEC1123_SEEL5123-main/milestone5/AdaptiveTrafficLight/`**
 2. Double-click the **`.project`** file.
 3. STM32CubeIDE will launch automatically.
 4. Choose your workspace.
