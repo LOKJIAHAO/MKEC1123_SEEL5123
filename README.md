@@ -13,3 +13,5 @@
 [Milestone3](https://youtu.be/XwWDksAelKQ)
 
 [Milestone5](https://github.com/LOKJIAHAO/MKEC1123_SEEL5123/tree/main/milestone5)
+
+[Milestone6](https://youtu.be/2lLpY2LJ-l0)
