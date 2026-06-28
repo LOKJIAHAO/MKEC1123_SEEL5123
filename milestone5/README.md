@@ -3,6 +3,8 @@
 ## Project Overview
 This repository contains the complete firmware code and project files for a four-way junction Smart Adaptive Traffic Light System. The system utilizes an STM32 microcontroller and IR sensors to dynamically adjust green light durations based on real-time traffic flow. It features embedded decision-making algorithms that prioritize heavy traffic lanes while ensuring fairness via an anti-starvation protocol.
 
+![Project Overview](block_diagram.png)
+
 ---
 
 ## Hardware and Software Used
